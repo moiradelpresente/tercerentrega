@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(212, 183, 119);
+  margin-top: 0;
+}
+
+header {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  margin: auto;
+}
+
+h1 {
+  color: grey;
+}
+
+li, ul {
+  font-size: large;
+}
+
+nav {
+  background-color: #878f5c;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(88, 43, 6);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.Main {
+  justify-self: stretch;
+  align-self: stretch;
+}/*# sourceMappingURL=styles.css.map */
